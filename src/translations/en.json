@@ -1,0 +1,56 @@
+{
+  "home": {
+    "title": "Home Screen",
+    "details": "Details",
+    "signIn": "Sign In",
+    "lightTheme": "Light Theme",
+    "darkTheme": "Dark Theme"
+  },
+  "details": {
+    "title": "Details Screen"
+  },
+  "apiError": {
+    "clientError": "Invalid or incomplete data provided by the client.",
+    "serverError": "An error occurred on the server.",
+    "timeoutError": "The server didn't respond in time.",
+    "connectionError": "Server not available, bad DNS.",
+    "networkError": "No internet connection. Please try again later.",
+    "cancelError": "The request has been cancelled. This can only happen if a `cancelToken` is provided in the config. See Axios `Cancellation`.",
+    "somethingWentWrong": "Something went wrong. Please try again!",
+    "unexpectedError": "An unexpected error occurred.",
+    "cancelSagaError": "The request has been cancelled.",
+    "error": "Error",
+    "permissionIsUnavailable": "Permission is unavailable",
+    "permissionTypeIsUndefined": "Permission types is undefined"
+  },
+  "yupError": {
+    "requireNameError": "Please enter a name.",
+    "requireEmailError": "Please enter an email address.",
+    "invalidEmailError": "Please enter a valid email address.",
+    "requirePasswordError": "Please enter a password.",
+    "lengthPasswordError": "Must be at least 8 characters long.",
+    "lowercasePasswordError": "Must contain at least one lowercase letter.",
+    "uppercasePasswordError": "Must contain at least one uppercase letter.",
+    "specialPasswordError": "Must contain at least one special character.",
+    "digitPasswordError": "Must contain at least one digit."
+  },
+  "auth": {
+    "hintName": "Name",
+    "hintEmail": "Email",
+    "hintPassword": "Password",
+    "btnSignIn": "Sign In",
+    "btnSignUp": "Sign Up",
+    "signInTitle": "Welcome Back",
+    "signInSubtitle": "Sign in to continue to your account",
+    "signUpTitle": "Create Account",
+    "signUpSubtitle": "Sign up to get started with your new account",
+    "noAccountLabel": "Don't have an account? ",
+    "hasAccountLabel": "Already have an account? ",
+    "signUpAction": "Sign Up",
+    "signInAction": "Sign In"
+  },
+  "profile": {
+    "title": "Profile",
+    "btnLogout": "Logout"
+  }
+}

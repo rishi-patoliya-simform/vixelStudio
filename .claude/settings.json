@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "deny": [
+      "Read(.env*)",
+      "Read(*.env)",
+      "Read(credentials.json)",
+      "Read(ios/tmp.xcconfig)",
+
+      "Read(node_modules/**)",
+      "Read(dist/**)",
+      "Read(build/**)",
+      "Read(web-build/**)",
+      "Read(.gradle/**)",
+      "Read(.cxx/**)",
+      "Read(.idea/**)",
+      "Read(coverage/**)",
+      "Read(.metro-health-check*)",
+      "Read(*.log)",
+      "Read(*.orig.*)",
+      "Read(.expo/**)",
+
+      "Read(*.apk)",
+      "Read(*.aab)",
+      "Read(*.app)",
+      "Read(*.ipa)",
+      "Read(*.tar.gz)",
+      "Read(*.jsbundle)",
+      "Read(*.keystore)",
+      "Read(*.jks)",
+      "Read(*.p8)",
+      "Read(*.p12)",
+      "Read(*.mobileprovision)",
+      "Read(*.key)",
+      "Read(.DS_Store)",
+      "Read(local.properties)"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/post-task-check.js"
+          }
+        ]
+      }
+    ]
+  }
+}
